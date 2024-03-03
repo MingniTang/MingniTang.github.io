@@ -1,5 +1,5 @@
 # Basic Information 
-title: Yaoyao Liu
+title: Mingni Tang
 position: Postdoctoral Fellow
 affiliation: Johns Hopkins University
 affiliation_link: https://cs.jhu.edu/
@@ -48,3 +48,4 @@ exclude:
   - README.md
   - LICENSE
   - CNAME
+remote_theme: yaoyao-liu/minimal-light
