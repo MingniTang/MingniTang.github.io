@@ -3,6 +3,7 @@ title: Mingni Tang
 position: Undergraduate Student
 affiliation: Wuhan University
 affiliation_link: https://cs.whu.edu.cn/
+#change
 affiliation_logo: ./assets/img/university-logo-small-horizontal-white-156eae9527.svg
 email: minnie-tang@whu.edu.cn
 email2: 2476664619@qq.com
@@ -10,7 +11,7 @@ email2: 2476664619@qq.com
 # Search Engine Optimization (SEO)
 keywords: mingni tang, tang mingni, mingnitang, tangmingni, tangmn, minnie,minnie-tang, minnie tang,youth safety, music , LLM
 canonical: https://mingnitang.github.io/
-description: Mingni Tang is a junior undergraduate student at the School of Computer Science, Wuhan University (WHU), fortunately supervised by Prof. Zuchao Li. Her research lies in natural language processing, large language model, and image generation.
+description: Mingni Tang is a junior undergraduate student at the School of Computer Science, Wuhan University (WHU), fortunately supervised by Prof. Zuchao Li. Her research lies in natural language processing, large language model, and youth safety.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -19,14 +20,18 @@ enable_hopkins_logo: true
 enable_last_update: false
 
 # Links
+#change
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=Uf9GqRsAAAAJ
+#change
 cv_link: https://pages.jh.edu/yliu538/files/Yaoyao_Liu_Curriculum_Vitae.pdf
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+github_link: https://github.com/MingniTang/
+
+linkedin: 
+twitter: 
 
 # Images 
+#change
 avatar: https://img.yliu.me/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
@@ -38,7 +43,8 @@ favicon_dark: ./assets/img/favicon-dark.png
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
+
+#clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
 
 # The following files will be removed from the generated website.
 exclude:
