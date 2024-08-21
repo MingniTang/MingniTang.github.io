@@ -13,9 +13,3 @@ My research interests include **Multimodal music understanding**, **Emotional su
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/projects.md %}
-
-{% include_relative _includes/scholarships.md %}
-
-{% include_relative _includes/educations.md %}
