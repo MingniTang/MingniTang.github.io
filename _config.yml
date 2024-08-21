@@ -4,12 +4,13 @@ position: Junior Undergraduate Student
 affiliation: Wuhan University
 affiliation_link: https://cs.whu.edu.cn/
 #change
-affiliation_logo: ./assets/img/university-logo-small-horizontal-white-156eae9527.svg
+#affiliation_logo: ./assets/img/university-logo-small-horizontal-white-156eae9527.svg
 email: minnie-tang@whu.edu.cn
-email2: 2476664619@qq.com
+email2: mingni.tang@polyu.edu.hk
+email3: 2476664619@qq.com
 
 # Search Engine Optimization (SEO)
-keywords: mingni tang, tang mingni, mingnitang, tangmingni, tangmn, minnie,minnie-tang, minnie tang,youth safety, music , LLM
+keywords: mingni tang, tang mingni, mingnitang, tangmingni, tangmn, minnie,minnie-tang, minnie tang, youth safety, music , LLM
 canonical: https://mingnitang.github.io/
 description: Mingni Tang is a junior undergraduate student at the School of Computer Science, Wuhan University (WHU), fortunately supervised by Prof. Zuchao Li. Her research lies in natural language processing, large language model, and youth safety.
 
@@ -33,8 +34,8 @@ twitter:
 # Images 
 #change
 avatar: ./assets/img/photo3.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+#favicon: ./assets/img/favicon.png
+#favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnotes
 #footnote: Feel free to use my website's source code.
