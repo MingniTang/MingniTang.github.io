@@ -121,10 +121,20 @@
         <br>
 
         {% if site.link_type == 'text' %}
-        [<a href="{{ site.google_scholar }}">Google Scholar</a>]
+        <div class="profile-links">
+        {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}">Google Scholar</a>
         <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
+        {% endif %}
+        {% if site.cv_link %}
+        <a class="resume-link" href="{{ site.cv_link }}">Resume</a>
         <br>
+        {% endif %}
+        {% if site.github_link %}
+        <a href="{{ site.github_link }}">GitHub</a>
+        <br>
+        {% endif %}
+        </div>
         {% endif %}
 
         {% if site.link_type == 'icon' %}
@@ -136,9 +146,7 @@
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
+        <a class="resume-link" href="{{ site.cv_link }}">Resume</a>
         {% endif %}
 
         {% if site.github_link %}

@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[May. 2024]</strong> Our paper about <a href="https://arxiv.org/pdf/2406.15885">LLM music</a> is accepted to <a href="https://2024.aclweb.org/calls/main_conference_papers/">ACL 2024</a>.</li>
-
+  <li><strong>[Apr. 2025]</strong> I joined the AI Reasoning Group at Microsoft Research Asia as a research intern.</li>
+  <li><strong>[Apr. 2025]</strong> First-author paper on multimodal music notation understanding was accepted to NAACL 2025.</li>
+  <li><strong>[May 2024]</strong> Co-first-author paper on evaluating the musical capabilities of large language models was accepted to ACL 2024.</li>
 </ul>

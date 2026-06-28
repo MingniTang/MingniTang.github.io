@@ -1,21 +1,18 @@
 main:
 
-  #- title:  Pyramidal-Graded Response for Large Lanague Model on Youth Safety
-    #authors: <strong>Mingni Tang†</strong>, Zuchao Li†*, Lefei Zhang, Hai Zhao, Ping Wang(*Corresponding authors, †Equal contribution)
-    # conference_short: ACL
-    # conference: The 61st Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2024.
-    #pdf: https://export.arxiv.org/abs/2XXXXXXXX
-    #code: https://github.com/XXXXXXXX
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    #image: ./assets/img/Youth.png
-    #notes: Preprint
+  - citation: "Li, J., Yang, L., Tang, M., Chen, C., Li, Z., Wang, P., & Zhao, H. (2024). The Music Maestro or The Musically Challenged: A Massive Music Evaluation Benchmark for Large Language Models. <em>Findings of ACL 2024</em>, 3246–3257."
+    pdf: https://aclanthology.org/2024.findings-acl.193.pdf
+    anthology: https://aclanthology.org/2024.findings-acl.193/
+    code: https://github.com/zcli-charlie/ZIQI-Eval
+    dataset: https://huggingface.co/datasets/MYTH-Lab/ZIQI-Eval
 
- # - title: "FSUIE: A Novel Fuzzy Span Mechanism for Universal Information Extraction"
-   # authors: <strong>Tianshuo Peng†</strong>, Zuchao Li†*, Lefei Zhang, Bo Du, Hai Zhao (*Corresponding authors, †Equal contribution)
-   # conference_short: ACL
-    #conference: The 61st Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2023.
-    #pdf: https://aclanthology.org/2023.acl-long.902
-    #code: https://github.com/pengts/FSUIE
-    ## bibtex: https://bib.yliu.me/MICCAI23.txt
-    #image: ./assets/img/ACL-2023.png
-    #notes: Poster Presentation
+  - citation: "Tang, M., Li, J., Yang, L., Zhang, Z., Tian, J., Li, Z., Zhang, L., & Wang, P. (2025). NOTA: Multimodal Music Notation Understanding for Visual Large Language Model. <em>Findings of NAACL 2025</em>, 7175–7188."
+    pdf: https://aclanthology.org/2025.findings-naacl.401.pdf
+    anthology: https://aclanthology.org/2025.findings-naacl.401/
+    arxiv: https://arxiv.org/abs/2412.14148
+
+  - citation: "Tang, M.<sup>1,†</sup>, Li, Z.<sup>1,†,*</sup>, Zhang, L.<sup>1,2</sup>, Zhao, H.<sup>5</sup>, & Wang, P.<sup>3,4</sup>. To be Youth Guard, A Pyramidal-Graded Solution for Large Language Model on Youth Safety."
+    status: Under review
+
+  - citation: "He, H., Liu, X., Lin, Z., Tang, M., Cheng, Y., Wang, J., Li, W., Cheng, P., & Gong, Y. (2025). Learning from the Best, Differently: A Diversity-Driven Rethinking on Data Selection. <em>arXiv preprint arXiv:2510.18909</em>."
+    arxiv: https://arxiv.org/abs/2510.18909
