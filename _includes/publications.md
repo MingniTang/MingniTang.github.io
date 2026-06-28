@@ -10,7 +10,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      {% assign publication_link = publication.pdf | default: publication.arxiv | default: publication.anthology %}
+      {% assign publication_link = publication.pdf | default: publication.paper %}
       {% if publication_link %}
       <div class="title"><a href="{{ publication_link }}">{{ publication.title }}</a></div>
       {% else %}
@@ -18,25 +18,23 @@
       {% endif %}
       <div class="author">{{ publication.authors }}</div>
       <div class="periodical"><em>{{ publication.conference }}</em></div>
-    {% if publication.pdf or publication.anthology or publication.arxiv or publication.code or publication.dataset %}
     <div class="links">
       {% if publication.pdf %}
       <a href="{{ publication.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% else %}
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">PDF</span>
       {% endif %}
-      {% if publication.anthology %}
-      <a href="{{ publication.anthology }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Anthology</a>
-      {% endif %}
-      {% if publication.arxiv %}
-      <a href="{{ publication.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>
+      {% if publication.paper %}
+      <a href="{{ publication.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+      {% else %}
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">Paper</span>
       {% endif %}
       {% if publication.code %}
       <a href="{{ publication.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if publication.dataset %}
-      <a href="{{ publication.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% else %}
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">Code</span>
       {% endif %}
     </div>
-    {% endif %}
   </div>
 </div>
 </li>

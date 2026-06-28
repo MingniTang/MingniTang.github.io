@@ -4,16 +4,14 @@ main:
     authors: "Jiajia Li*, Lu Yang*, <strong>Mingni Tang*</strong>, Cong Chen, Zuchao Li, Ping Wang, Hai Zhao<br>(* Equal contribution)"
     conference: "Findings of the Association for Computational Linguistics: ACL 2024, 3246–3257."
     pdf: https://aclanthology.org/2024.findings-acl.193.pdf
-    anthology: https://aclanthology.org/2024.findings-acl.193/
+    paper: https://aclanthology.org/2024.findings-acl.193/
     code: https://github.com/zcli-charlie/ZIQI-Eval
-    dataset: https://huggingface.co/datasets/MYTH-Lab/ZIQI-Eval
 
   - title: "NOTA: Multimodal Music Notation Understanding for Visual Large Language Model"
     authors: "<strong>Mingni Tang</strong>, Jiajia Li, Lu Yang, Zeyu Zhang, Jinyi Tian, Zuchao Li, Lefei Zhang, Ping Wang"
     conference: "Findings of the Association for Computational Linguistics: NAACL 2025, 7175–7188."
     pdf: https://aclanthology.org/2025.findings-naacl.401.pdf
-    anthology: https://aclanthology.org/2025.findings-naacl.401/
-    arxiv: https://arxiv.org/abs/2412.14148
+    paper: https://aclanthology.org/2025.findings-naacl.401/
 
   - title: "To be Youth Guard: A Pyramidal-Graded Solution for Large Language Model on Youth Safety"
     authors: "<strong>Mingni Tang<sup>1,†</sup></strong>, Zuchao Li<sup>1,†,*</sup>, Lefei Zhang<sup>1,2</sup>, Hai Zhao<sup>5</sup>, Ping Wang<sup>3,4</sup>"
@@ -22,4 +20,4 @@ main:
   - title: "Learning from the Best, Differently: A Diversity-Driven Rethinking on Data Selection"
     authors: "Haitao He, Xiaocheng Liu, Zinan Lin, <strong>Mingni Tang</strong>, Yi Cheng, Jiashuo Wang, Wenjie Li, Pengyu Cheng, Yeyun Gong"
     conference: "arXiv preprint arXiv:2510.18909, 2025."
-    arxiv: https://arxiv.org/abs/2510.18909
+    paper: https://arxiv.org/abs/2510.18909
