@@ -20,19 +20,19 @@
       <div class="periodical"><em>{{ publication.conference }}</em></div>
     <div class="links">
       {% if publication.pdf %}
-      <a href="{{ publication.pdf }}" class="pub-link" target="_blank">PDF</a>
+      <a href="{{ publication.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% else %}
-      <span class="pub-link disabled">PDF</span>
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">PDF</span>
       {% endif %}
       {% if publication.paper %}
-      <a href="{{ publication.paper }}" class="pub-link" target="_blank">Paper</a>
+      <a href="{{ publication.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
       {% else %}
-      <span class="pub-link disabled">Paper</span>
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">Paper</span>
       {% endif %}
       {% if publication.code %}
-      <a href="{{ publication.code }}" class="pub-link" target="_blank">Code</a>
+      <a href="{{ publication.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% else %}
-      <span class="pub-link disabled">Code</span>
+      <span class="btn btn-sm z-depth-0 disabled" style="font-size:12px;">Code</span>
       {% endif %}
     </div>
   </div>
