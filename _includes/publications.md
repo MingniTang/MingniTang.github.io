@@ -10,10 +10,14 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="citation">{{ publication.citation }}</div>
-      {% if publication.status %}
-      <div class="periodical"><em>{{ publication.status }}</em></div>
+      {% assign publication_link = publication.pdf | default: publication.arxiv | default: publication.anthology %}
+      {% if publication_link %}
+      <div class="title"><a href="{{ publication_link }}">{{ publication.title }}</a></div>
+      {% else %}
+      <div class="title">{{ publication.title }}</div>
       {% endif %}
+      <div class="author">{{ publication.authors }}</div>
+      <div class="periodical"><em>{{ publication.conference }}</em></div>
     {% if publication.pdf or publication.anthology or publication.arxiv or publication.code or publication.dataset %}
     <div class="links">
       {% if publication.pdf %}

@@ -1,18 +1,25 @@
 main:
 
-  - citation: "Li, J., Yang, L., Tang, M., Chen, C., Li, Z., Wang, P., & Zhao, H. (2024). The Music Maestro or The Musically Challenged: A Massive Music Evaluation Benchmark for Large Language Models. <em>Findings of ACL 2024</em>, 3246–3257."
+  - title: "The Music Maestro or The Musically Challenged: A Massive Music Evaluation Benchmark for Large Language Models"
+    authors: "Jiajia Li*, Lu Yang*, <strong>Mingni Tang*</strong>, Cong Chen, Zuchao Li, Ping Wang, Hai Zhao<br>(* Equal contribution)"
+    conference: "Findings of the Association for Computational Linguistics: ACL 2024, 3246–3257."
     pdf: https://aclanthology.org/2024.findings-acl.193.pdf
     anthology: https://aclanthology.org/2024.findings-acl.193/
     code: https://github.com/zcli-charlie/ZIQI-Eval
     dataset: https://huggingface.co/datasets/MYTH-Lab/ZIQI-Eval
 
-  - citation: "Tang, M., Li, J., Yang, L., Zhang, Z., Tian, J., Li, Z., Zhang, L., & Wang, P. (2025). NOTA: Multimodal Music Notation Understanding for Visual Large Language Model. <em>Findings of NAACL 2025</em>, 7175–7188."
+  - title: "NOTA: Multimodal Music Notation Understanding for Visual Large Language Model"
+    authors: "<strong>Mingni Tang</strong>, Jiajia Li, Lu Yang, Zeyu Zhang, Jinyi Tian, Zuchao Li, Lefei Zhang, Ping Wang"
+    conference: "Findings of the Association for Computational Linguistics: NAACL 2025, 7175–7188."
     pdf: https://aclanthology.org/2025.findings-naacl.401.pdf
     anthology: https://aclanthology.org/2025.findings-naacl.401/
     arxiv: https://arxiv.org/abs/2412.14148
 
-  - citation: "Tang, M.<sup>1,†</sup>, Li, Z.<sup>1,†,*</sup>, Zhang, L.<sup>1,2</sup>, Zhao, H.<sup>5</sup>, & Wang, P.<sup>3,4</sup>. To be Youth Guard, A Pyramidal-Graded Solution for Large Language Model on Youth Safety."
-    status: Under review
+  - title: "To be Youth Guard: A Pyramidal-Graded Solution for Large Language Model on Youth Safety"
+    authors: "<strong>Mingni Tang<sup>1,†</sup></strong>, Zuchao Li<sup>1,†,*</sup>, Lefei Zhang<sup>1,2</sup>, Hai Zhao<sup>5</sup>, Ping Wang<sup>3,4</sup>"
+    conference: "Under review."
 
-  - citation: "He, H., Liu, X., Lin, Z., Tang, M., Cheng, Y., Wang, J., Li, W., Cheng, P., & Gong, Y. (2025). Learning from the Best, Differently: A Diversity-Driven Rethinking on Data Selection. <em>arXiv preprint arXiv:2510.18909</em>."
+  - title: "Learning from the Best, Differently: A Diversity-Driven Rethinking on Data Selection"
+    authors: "Haitao He, Xiaocheng Liu, Zinan Lin, <strong>Mingni Tang</strong>, Yi Cheng, Jiashuo Wang, Wenjie Li, Pengyu Cheng, Yeyun Gong"
+    conference: "arXiv preprint arXiv:2510.18909, 2025."
     arxiv: https://arxiv.org/abs/2510.18909
