@@ -1,5 +1,8 @@
 main:
 
+  - title: "Visitors"
+    url: ./#visitors
+
   - title: "Awards"
     url: ./#awards
 
