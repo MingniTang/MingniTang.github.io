@@ -12,6 +12,7 @@
       <li>A comprehensive operation and maintenance software system for monitoring and fault classification.</li>
       <li>Responsible for data visualization and research on the fault classification algorithm.</li>
       <li>17,692 lines of code; awarded the National First Prize in the China Undergraduate Software Cup competition.</li>
+      <li><a href="https://www.cnsoftbei.com/" target="_blank">Media coverage</a></li>
     </ul>
   </div>
 
@@ -24,6 +25,7 @@
       <li>A graph-neural-network-based intelligent operation and maintenance platform for microservice systems.</li>
       <li>Contributed to frontend software development and root-cause identification algorithms.</li>
       <li>23,351 lines of code; awarded the National First Prize in the China Computer Design Competition, with software copyright application submitted.</li>
+      <li><a href="https://cs.whu.edu.cn/info/1054/35561.htm" target="_blank">Media coverage</a></li>
     </ul>
   </div>
 </div>
