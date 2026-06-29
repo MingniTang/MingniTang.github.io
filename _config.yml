@@ -40,9 +40,13 @@ avatar: ./assets/img/mingni-profile-original.JPG
 #footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-
+# Fill one of these after creating an analytics account.
+# Google Analytics 4 example: G-XXXXXXXXXX
+google_analytics_id:
+# Plausible example: mingnitang.github.io
+plausible_domain:
+# Optional, only needed for self-hosted Plausible.
+plausible_script:
 #clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
 
 # The following files will be removed from the generated website.
