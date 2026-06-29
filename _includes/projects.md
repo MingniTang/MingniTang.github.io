@@ -11,7 +11,6 @@
     <ul>
       <li>A comprehensive operation and maintenance software system for monitoring and fault classification.</li>
       <li>17,692 lines of code; awarded the National First Prize in the China Undergraduate Software Cup competition.</li>
-      <li><a href="https://www.cnsoftbei.com/" target="_blank">Media coverage</a></li>
     </ul>
   </div>
 
